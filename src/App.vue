@@ -43,6 +43,8 @@
       </v-list>
       </v-navigation-drawer>
 
+      
+
      
         <v-card-text>
           <router-view></router-view>
@@ -50,6 +52,7 @@
      
     </v-layout>
   </v-card>
+<login/>
 </template>
 <script>
 // import { RouterLink, RouterView } from 'vue-router'
