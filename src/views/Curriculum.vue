@@ -1,6 +1,6 @@
 <template>
- <v-container>
-  <v-expansion-panels color="purple-darken-3">
+<v-container >
+  <v-expansion-panels color="purple-darken-3" class="pt-7">
   <v-expansion-panel class="mt-4" 
     title="Language" 
     text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est labore voluptatibus! Eaque cupiditate minima"
