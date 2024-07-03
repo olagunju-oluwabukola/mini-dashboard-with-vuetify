@@ -18,7 +18,8 @@ data(){
 </script>
 
 <template>
-  <div class="container pt-7">
+  <h2 class="text-dark">Meet Our Team!</h2>
+  <v-div flat  class="container pt-7">
     <v-card v-for="team in teams" :key="team.name"
     max-width="344"
     hover
@@ -38,7 +39,7 @@ data(){
     </v-card-text>
   </v-card>
 
-  </div>
+  </v-div>
 </template>
 
 <style scoped>
@@ -47,7 +48,7 @@ data(){
  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
  grid-column-gap: 20px;
  grid-row-gap: 15px;
- margin-top: 3em;
+
 }
 
 .about{
@@ -66,6 +67,9 @@ img{
   border-radius: 50%;
   width: 25px;
   margin-bottom: -5px;
+}
+h2{
+  margin-top: 2.5em;
 }
 </style>
 

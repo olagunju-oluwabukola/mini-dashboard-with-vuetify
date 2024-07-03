@@ -17,7 +17,7 @@
           <v-btn icon="mdi-filter" variant="text">jjj</v-btn>
         </template> -->
 
-        <v-btn icon="mdi-dots-vertical" variant="text" class="text-lowercase mr-8">
+        <v-btn icon="mdi-dots-vertical" variant="text" class="text-lowercase text-caption mr-8">
         Log in
         </v-btn>
       </v-app-bar>
@@ -57,6 +57,7 @@
 <script>
 // import { RouterLink, RouterView } from 'vue-router'
   export default {
+    components: {},
     data: () => ({
       drawer: false,
       group: null,
